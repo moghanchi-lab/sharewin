@@ -1,0 +1,13 @@
+{
+  "name": "sharewin",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "mobile": "npm run start --workspace=apps/mobile",
+    "admin": "npm run dev --workspace=apps/admin",
+    "build:admin": "npm run build --workspace=apps/admin"
+  }
+}
